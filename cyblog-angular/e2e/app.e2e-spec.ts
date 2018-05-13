@@ -1,10 +1,10 @@
-import { CYBLOGPage } from './app.po';
+import { CyblogAngularPage } from './app.po';
 
-describe('cyblog App', () => {
-  let page: CYBLOGPage;
+describe('cyblog-angular App', () => {
+  let page: CyblogAngularPage;
 
   beforeEach(() => {
-    page = new CYBLOGPage();
+    page = new CyblogAngularPage();
   });
 
   it('should display welcome message', () => {

@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class CYBLOGPage {
+export class CyblogAngularPage {
   navigateTo() {
     return browser.get('/');
   }
